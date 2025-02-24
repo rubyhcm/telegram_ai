@@ -13,7 +13,8 @@ Go to https://platform.openai.com/api-keys to create API key
 #### Add open_ai_key and telegram_bot
 
 `EDITOR='code . --wait' rails credentials:edit` to add open_ai_key, telegram_bot
-`EDITOR=nano rails credentials:edit --environment development        `
+
+`EDITOR=nano rails credentials:edit --environment development`
 
 #### Install gems
 
