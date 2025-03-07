@@ -10,7 +10,7 @@
 
 Go to https://platform.openai.com/api-keys to create API key
 
-#### Add open_ai_key and telegram_bot
+#### Add `open_ai_key` and `telegram_bot`
 
 `EDITOR='code . --wait' rails credentials:edit` to add open_ai_key, telegram_bot
 
@@ -24,6 +24,9 @@ gem 'ruby-openai'
 gem 'sidekiq'
 # gem 'faraday', '2.12.2'
 # gem 'json', '2.10.1'
+gem 'tailwindcss-rails'
+# rails tailwindcss:install
+# RAILS_ENV=production rails assets:precompile
 
 gem install telegram-bot-ruby -v '2.4.0'
 gem install faraday -v '2.12.2'
